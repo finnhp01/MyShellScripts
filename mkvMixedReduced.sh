@@ -1,6 +1,5 @@
 # This script will transform your mkv to a mixed track audio and smaller video 
 
-
 if [ -z "$1" ]; then
   echo "Usage: mkvMixedReduced <video.mkv> [crf]"
   exit 1
