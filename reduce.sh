@@ -14,7 +14,6 @@ if [ ! -f "$input" ]; then
   exit 1
 fi
 
-
 # Asks for CRF
 if [ -z "$2" ]; then
   read -p "Enter desired quality (CRF 18-50, lower = better quality, default 28): " crf
